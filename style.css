@@ -52,9 +52,7 @@ hr{
 .large{
   font-size: 24px;
 }
-a:link    {color:#5555ff};
-a:visited {color: darkblue};
-a:hover   {color: green};
-a:active  {color: orange};
-
-
+a:link    {color: #5555ff}
+a:visited {color: #darkblue}
+a:hover   {color: #green}
+a:active  {color: #orange}

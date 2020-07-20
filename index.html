@@ -7,39 +7,47 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <!--The header includes the main page title and a subtitle. -->
     <header class="center">
       <h1>Leo Janas</h1>
       <h2>Web Developer</h2>
     </header>
+    <!--The main tag contains all the main content of the page. -->
     <main>
+      <!--This division places a profile picture at the top of the content section. -->
       <div class="center">
       <img class="profile" src="profile.jpg" alt="Leo on a hike.">
       </div>
-      <div class= "sea-green rounded">
+      <!--This section (semantic container) holds the first content section, "Introduction".  Embedded in the first paragraph of text is a link to the google maps page for Salt Lake City.-->
+      <section class= "sea-green rounded">
         <h3>Introduction</h3>
-        <p>I am a current student learning web development at Bloc. I live in <a href="https://www.google.com/maps/place/Salt+Lake+City,+UT/@40.7767833,-112.0605711,11z/data=!3m1!4b1!4m5!3m4!1s0x87523d9488d131ed:0x5b53b7a0484d31ca!8m2!3d40.7607793!4d-111.8910474">Salt Lake City, Utah</a>.</p>
+        <p>I am a current student learning web development at Bloc. I live in <a href="https://www.google.com/maps/place/Salt+Lake+City,+UT/@40.7767833,-112.0605711,11z/data=!3m1!4b1!4m5!3m4!1s0x87523d9488d131ed:0x5b53b7a0484d31ca!8m2!3d40.7607793!4d-111.8910474" target="_blank">Salt Lake City, Utah</a>.</p>
         <p>I am excited to begin a career in web development because:</p>
+        <!--This is an unordered list of reasons I am excited about web development. -->
         <ul>
           <li>It offers flexibility and the potential for remote work.</li>
           <li>It is an exciting, dynamic field that will always offer me new things to learn and master.</li>
           <li>I love troubleshooting and problem solving, and I find the logic of coding very fascinating.</li>
           </ul>
-        </div>
+        </section>
         <hr>
-        <div class= "light-blue rounded">
+      <!--This section contains the "About Me" content. -->
+        <section class= "light-blue rounded">
           <h3>About Me</h3>
           <p>Before becoming interested in web devlopment, I went to West Virginia University and got a dual bachelor's degree in Mechanical and Aerospace Engineering. I am now pursuing a career in web development to add to my skillset and gain more flexibility in my career.</p>
           <p>One of my biggest passions in life is traveling and seeing new places.  I am hoping that a career in web development will allow me the flexibility to focus more on that.  My fiance and I are working on converting a van and hope to be able to live on the move for a few months at a time, traveling all over North America.  </p>
-          </div>
+          </section>
           <hr>
-          <div class="green rounded">
+      <!--The third and final section contains the "Contact Me" content, including links to my GitHub and LinkedIn profile pages -->
+          <section class="green rounded">
             <h3>Contact Me</h3>
             <p>Contact Methods</p>
+            <!--The contact links are placed in an ordered list. -->
             <ol>
-              <li><a href="https://www.linkedin.com/in/leo-janas-b12588105" class="large"> LinkedIn </a></li>
-              <li><a href="https://github.com/Leojanas" class="large"> Github</a></li>
+              <li><a href="https://www.linkedin.com/in/leo-janas-b12588105" class="large" target="_blank"> LinkedIn </a></li>
+              <li><a href="https://github.com/Leojanas" class="large" target="_blank"> GitHub</a></li>
               </ol>
-            </div>
+            </section>
     </main>
     <footer>
       </footer>

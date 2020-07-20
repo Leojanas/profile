@@ -1,6 +1,9 @@
+/*This code provides the CSS formatting for the project  */
+/*This establishes a "center" class that centers the text of anything with that class.*/
 .center{
   text-align: center;
 }
+/*This sets the style of the h1 tag in the HTML.  This is the main page title. */
 h1{
   font-size: 72px;
   font-family: cursive;
@@ -8,50 +11,59 @@ h1{
   padding: 0px;
   margin: 0px;
 }
+/*This styles the h2 tag in the HTML. */
 h2{
   margin: 0px;
   padding: 0px;
 }
+/*This styles the h3 tag in the HTML */
 h3{
   font-family: cursive;
   text-align: center;
   margin-top: 0px;
 }
+/*This styles the header tag in the HTML. */
 header{
   background-color: #d9d9d9;
 }
+/*This establishes a "profile" class that has formatting for the profile picture used in the HTML. */
 .profile{
   width: 300px;
   border-radius: 50px;
 }
+/*This establishes a "rounded" class that rounds the corners of anything it is applied to. */
 .rounded{
   border-radius: 20px;
 }
+/*This creates a "light-blue" class that gives a light blue background to anything it is applied to. */
 .light-blue{
   background-color: lightskyblue;
-  border: #000000 2px solid;
-  padding: 20px;
-
 }
+/*This creates a "sea-green" class that gives a sea green background to anything it is applied to. */
 .sea-green{
   background-color: lightseagreen;
-  border: #000000 2px solid;
-  padding: 20px;
 }
+/*This creates a "green" class that gives a green background to anything it is applied to. */
 .green{
   background-color: lightgreen;
+}
+/*This creates a "border" class that gives a solid black border to anything it is applied to. */
+.border{
   border: #000000 2px solid;
   padding-left: 20px;
 }
+/*This adds styling the hr tag in the HTML. It is used between each section. */  
 hr{
   margin-top: 10px;
   margin-bottom: 10px;
   height: 5px;
   background-color: #d9d9d9;
 }
+/*This creates a "large" class that sets the font size of anythign it is applied to. */
 .large{
   font-size: 24px;
 }
+/*This sets the colors for the various states of the links. */
 a{
   color: #5555ff
 }
